@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grocery should match the snapshot when all the info is passed 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Grocery
+    name="apples"
+    notes="apples are good"
+    onDelete={[Function]}
+    onPurchase={[Function]}
+    onStar={[Function]}
+    quantity="10"
+    starred={false}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          apples
+</h3>,
+        <p>
+          Quantity: 
+          10
+</p>,
+        <p>
+          apples are good
+</p>,
+        <button
+          className="delete-button"
+          onClick={[Function]}
+>
+          Delete
+</button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "apples",
+        },
+        "ref": null,
+        "rendered": "apples",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Quantity: ",
+            "10",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Quantity: ",
+          "10",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "apples are good",
+        },
+        "ref": null,
+        "rendered": "apples are good",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Delete",
+          "className": "delete-button",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Delete",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            apples
+</h3>,
+          <p>
+            Quantity: 
+            10
+</p>,
+          <p>
+            apples are good
+</p>,
+          <button
+            className="delete-button"
+            onClick={[Function]}
+>
+            Delete
+</button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "apples",
+          },
+          "ref": null,
+          "rendered": "apples",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Quantity: ",
+              "10",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Quantity: ",
+            "10",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "apples are good",
+          },
+          "ref": null,
+          "rendered": "apples are good",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Delete",
+            "className": "delete-button",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Delete",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
